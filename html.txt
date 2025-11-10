@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://kit.fontawesome.com/27ee9c9522.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script 
+</head>
+  <script src="script.js"></script>
+
+<body>
+
+  <header>
+    <img src="https://media.discordapp.net/attachments/1250042447598456915/1437056224590954680/18B0F2D7-630F-49EF-9B5E-474684E00C80.jpg?ex=6911da67&is=691088e7&hm=5435637387e5e936874c73a8348fb23c13c589ba806f9847ce01f07504071cc0&=&format=webp&width=313&height=556" alt="Kathy" class="profile-pic">
+    <h1>Hello, I'm Kathy</h1>
+    <p>Aspiring Web Developer</p>
+    
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Irene Kathy! I’m diving into the world of web development and UX/UI design because I love crafting experiences that look great and <i>feel</i> right. Every project I take on helps me learn something new — and I can’t wait to turn that passion into a career that blends creativity and code.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li>Project 1 - This portfolio!</li>
+      <li>Project 2 - Coming soon!</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <section id="contact">
+  <div class="social-links">
+    <a href="https://github.com/kathyyAli" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://discord.com/channels/@me/1250042447598456915" target="_blank">
+      <i class="fa-brands fa-discord"></i>
+    </a>
+    <a href="https://www.instagram.com/kathyy.ali">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+  </div>
+</section>
+    <p>Email: <a href="mailto:youremail@example.com">ina.alikatora925@icloud.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kathy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

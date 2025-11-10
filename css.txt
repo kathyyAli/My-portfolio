@@ -1,0 +1,90 @@
+/* General styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #121212;
+  color: white;
+  text-align: center;
+}
+
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #11212D, #06141B);
+  padding: 100px 20px;
+  color: white;
+  animation: fadeIn 2s ease-in;
+}
+
+/* Section styling */
+section {
+  margin: 50px 20px;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  animation: slideUp 1.5s ease;
+}
+
+/* Footer */
+footer {
+  background: #0a0a0a;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* Links */
+a {
+  color: #00b4d8;
+  text-decoration: none;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;   /* adjust this number for more or less curve */
+  object-fit: cover;
+  border: 3px black;
+}
+
+.profile-pic {
+  animation: fadeZoom 1.5s ease-in-out;
+}
+
+@keyframes fadeZoom {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 180, 216, 0.6);
+  transition: 0.3s;
+}
+.social-links a {
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #00b4d8; /* changes color on hover */
+  transform: scale(1.2);
+}
+
