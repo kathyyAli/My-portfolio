@@ -36,7 +36,6 @@
 
   <section id="contact">
     <h2>Contact Me</h2>
-    <section id="contact">
   <div class="social-links">
     <a href="https://github.com/kathyyAli" target="_blank">
       <i class="fa-brands fa-github"></i>
@@ -58,4 +57,5 @@
 
 </body>
 </html>
+
 
